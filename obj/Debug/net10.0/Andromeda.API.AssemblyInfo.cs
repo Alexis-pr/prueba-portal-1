@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Andromeda.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+467539ae9077593f8545c0ca12322d748bf3c216")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c97e9404f33192e0aae72489ba5fbb9e2b1407ae")]
 [assembly: System.Reflection.AssemblyProductAttribute("Andromeda.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Andromeda.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
