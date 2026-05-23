@@ -1,25 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Negro\\Desktop\\Andromeda.API\\Andromeda.API.csproj": {}
+    "/home/cohorte6/Escritorio/prueba-portal-1/Andromeda.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Negro\\Desktop\\Andromeda.API\\Andromeda.API.csproj": {
+    "/home/cohorte6/Escritorio/prueba-portal-1/Andromeda.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Negro\\Desktop\\Andromeda.API\\Andromeda.API.csproj",
+        "projectUniqueName": "/home/cohorte6/Escritorio/prueba-portal-1/Andromeda.API.csproj",
         "projectName": "Andromeda.API",
-        "projectPath": "C:\\Users\\Negro\\Desktop\\Andromeda.API\\Andromeda.API.csproj",
-        "packagesPath": "C:\\Users\\Negro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Negro\\Desktop\\Andromeda.API\\obj\\",
+        "projectPath": "/home/cohorte6/Escritorio/prueba-portal-1/Andromeda.API.csproj",
+        "packagesPath": "/home/cohorte6/.nuget/packages/",
+        "outputPath": "/home/cohorte6/Escritorio/prueba-portal-1/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Negro\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/cohorte6/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "/usr/lib/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,7 +39,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net10.0": {
@@ -104,7 +105,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/10.0.107/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

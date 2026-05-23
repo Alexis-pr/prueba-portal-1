@@ -43,12 +43,23 @@ builder.Services.AddAuthorization();
 builder.Services.AddControllers();
 
 // ── CORS ───────────────────────────────────────────────
+/*
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowFrontend", policy =>
         policy.WithOrigins("http://localhost:3000", "https://andromeda.andrescortes.dev")
               .AllowAnyHeader()
               .AllowAnyMethod());
+});
+*/
+// Permite todo lo que ingrese mediante la direccion o localhost
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowFrontend", policy =>
+        policy.AllowAnyOrigin()
+            .AllowAnyHeader()
+            .AllowAnyMethod());
 });
 
 builder.Services.AddLogging(logging => logging.AddConsole());

@@ -63,7 +63,8 @@
       "FluentValidation.DependencyInjectionExtensions/11.11.0": {
         "type": "package",
         "dependencies": {
-          "FluentValidation": "11.11.0"
+          "FluentValidation": "11.11.0",
+          "Microsoft.Extensions.Dependencyinjection.Abstractions": "2.1.0"
         },
         "compile": {
           "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {
@@ -502,6 +503,19 @@
         },
         "runtime": {
           "lib/net8.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.Extensions.DependencyModel/8.0.2": {
@@ -1601,6 +1615,19 @@
         "tools/netcoreapp2.0/any/ef.runtimeconfig.json"
       ]
     },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/2.1.0": {
+      "sha512": "8/CtASu80UIoyG+r8FstrmZW5GLtXxzoYpjj3jV0FKZCL5CiFgSH3pAmqut/dC68mu7N1bU6v0UtKKL3gCUQGQ==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec"
+      ]
+    },
     "Microsoft.Extensions.DependencyModel/8.0.2": {
       "sha512": "mUBDZZRgZrSyFOsJ2qJJ9fXfqd/kXJwf3AiDoqLD9m6TjY5OO/vLNOb9fb4juC0487eq4hcGN/M2Rh/CKS7QYw==",
       "type": "package",
@@ -2079,24 +2106,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Negro\\.nuget\\packages\\": {}
+    "/home/cohorte6/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Negro\\Desktop\\Andromeda.API\\Andromeda.API.csproj",
+      "projectUniqueName": "/home/cohorte6/Escritorio/prueba-portal-1/Andromeda.API.csproj",
       "projectName": "Andromeda.API",
-      "projectPath": "C:\\Users\\Negro\\Desktop\\Andromeda.API\\Andromeda.API.csproj",
-      "packagesPath": "C:\\Users\\Negro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Negro\\Desktop\\Andromeda.API\\obj\\",
+      "projectPath": "/home/cohorte6/Escritorio/prueba-portal-1/Andromeda.API.csproj",
+      "packagesPath": "/home/cohorte6/.nuget/packages/",
+      "outputPath": "/home/cohorte6/Escritorio/prueba-portal-1/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Negro\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/cohorte6/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
       ],
       "sources": {
+        "/usr/lib/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2115,7 +2143,7 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.200"
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net10.0": {
@@ -2181,7 +2209,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/10.0.107/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
